@@ -1,0 +1,287 @@
+:root{
+  --black : black;
+  --grey: #121212;
+  --light-grey: #232323;
+  --mid-grey: #312f2f;
+  --white: #fff;
+
+}
+body,html{
+  height: 100%;
+  margin: 0rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--black);
+  color: var(--white);
+  font-family: 'Montserrat', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: var(--white);
+  }
+.container{
+  flex: 1;
+  display: flex;
+  overflow: hidden ;
+  background-color: var(--black);
+  padding: 0.5rem;
+}
+.sidebar{
+  flex: 0.25;
+  overflow-y: auto;
+  display: flex;
+  margin-right: 0.5rem;
+ flex-direction: column;
+
+
+}
+#logo{
+  height: 1.5rem;
+  
+}
+.main-content{
+  flex: 0.8;
+  background-color: var(--grey);
+  overflow-y: auto;
+
+  border-radius: 0.5rem;
+
+}
+
+.topside{
+display: flex;
+flex-direction: column;
+height: fit-content;
+   background-color: var(--grey);
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  padding:  1.6rem ;
+  gap: 1.5rem;
+
+} 
+.link-flex1{
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+opacity: 0.8;
+font-weight: 600;
+font-size: 0.9rem;
+cursor: pointer;
+}
+.link-flex1:hover{
+  opacity: 1.1;
+  transition: all 0.3s;
+}
+.link-flex1 img{
+    height: 1.2rem;
+    width: 1.2rem;
+}
+.link-flex1 p{
+  font-size: 1 rem;
+  color: var(--white);
+}
+.link-flex{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+opacity: 0.7;
+font-weight: 600;
+font-size: 0.9rem;
+cursor: pointer;
+
+}
+.link-flex:hover{
+  opacity: 1.1;
+  transition: all 0.3s;
+}
+.link-flex img{
+    height: 1.2rem;
+    width: 1.2rem;
+}
+.link-flex p{
+  font-size: 1 rem;
+  color: var(--white);
+}
+
+.library{
+  border-radius: 0.5rem;
+  flex: 3; 
+  background-color: var(--grey);
+  padding: 1rem 1.5rem ;
+  height: 90vh;
+
+}
+
+.flex-top{
+  display: flex;
+  justify-content: space-between;
+  align-items : center;
+  margin-bottom: 0.5rem;
+  
+}
+
+.playlist{
+  padding: 1rem;
+  height: 1.5rem;
+  margin-top: 2rem;
+  margin-left: 1px;
+  background-color: var(--light-grey);
+  border-radius: 0.5rem;
+  line-height: 2rem;
+  height: fit-content;
+  margin-right: 0.1rem;
+}
+.p{
+  font-weight: 700;
+}
+.s{
+  font-weight: 400;
+}
+.n{
+   align-items: center;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background-color: var(--white);
+  border-radius: 5rem;
+  width: fit-content;
+  font-weight: 700;
+  color: var(--black);
+  height: fit-content;
+  cursor: pointer;
+  
+}
+.n:hover{
+  font-size:large;
+  transition: all 0.3s;
+
+
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  background-color: var(--grey);
+  visibility: inherit;
+
+  /* Other styles as needed */
+}
+.navbar:hover{
+  position: sticky;
+}
+.cards-container {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.card {
+  width: 150px;
+  background-color: var(--light-grey);
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  height: fit-content;
+  margin: 0rem 0.75rem;
+  cursor: pointer;
+}
+.card-img {
+  width: 100%;
+  border-radius: 0.35rem;
+}
+.card:hover{
+  background-color: var(--mid-grey);
+}
+.MM{
+  margin-left: 25px;
+}
+.cr7{
+
+  list-style: none;
+  margin-top: 8rem;
+  margin-bottom: 10rem;
+  margin-left: 4rem;
+}
+.w{
+  
+  display: flex;
+  /* flex-direction: row; */
+}
+.q{
+ margin-top: 15px;
+ margin-right: 20px;
+ opacity: 0.7;
+ cursor: pointer;
+ }
+ .q:hover{
+  opacity: 1.1;
+ }
+ .r{
+  cursor: pointer;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  opacity: 0.7;
+
+ }
+ .r:hover{
+  opacity: 1;
+ }
+ .z{
+  display: flex;
+ }
+ .m img{
+ width: 100px;
+ margin-top: 8rem;
+ margin-left: 35rem;
+ }
+ .h{
+  height: 0.1rem;
+    margin-bottom: 8rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+ .c{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+ }
+ .f{
+  margin-top: 1rem;
+margin-left: 2rem;
+cursor: pointer;
+opacity: 0.7;
+ }
+ .f:hover{
+  opacity: 1;
+ }
+ .o{
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+    margin-right: 2rem;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  background-color: var(--black);
+  border-radius: 500px;
+  width: fit-content;
+  font-weight: 700;
+  color: var(--white);
+  height: fit-content;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+
+ }
+ .o:hover{
+  padding: 0.75rem 1rem;
+ }
+ p{
+  font-size: 12px;
+  margin: 0%;
+  color: #888;
+ }
+ 
